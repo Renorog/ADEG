@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+.cabecalho {
+    align-items:center;
+    background: gainsboro;
+    display: flex;
+    justify-content:space-between;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+    position: relative;
+    margin-left: 30px;
+}
+
+.menu {
+    list-style: none;
+    display:flex;
+    margin-right: 30px;
+}
+
+.menu__list {
+    
+}
+
+.menu__link {
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 20px;
+
+    
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+    color:darkgray;
+    
+}
